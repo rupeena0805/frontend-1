@@ -6,13 +6,13 @@ pipeline {
     }
     
     tools {
-        nodejs 'raj_node'
+        nodejs 'rup_node'
     }
     stages {
         stage('Checkout Repository') {
             steps {
                 echo 'Cloning the GitHub repository...'
-                git branch: 'main', url: 'https://github.com/Raj5528/Kiza-Backend.git'
+                git branch: 'main', url: 'https://github.com/rupeena0805/frontend-1.git'
             }
         }
         stage('Install Dependencies') {
