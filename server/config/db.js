@@ -1,5 +1,5 @@
 let mongoose = require('mongoose')
-const dbPath = 'mongodb+srv://dbuser:dbpassword@mongo.vk6tb.mongodb.net/kizaTexttiles'
+const dbPath = 'mongodb+srv://rupeena:<db_password>@cluster0.gvovnaj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 const options = { useNewUrlParser: true, useUnifiedTopology: true }
 mongoose.connect(dbPath, options).then(res => {
     console.log("Db Connected")
